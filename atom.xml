@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://flying-sky-stack.github.io</id>
+    <title>winpost</title>
+    <updated>2026-02-15T11:47:12.524Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://flying-sky-stack.github.io"/>
+    <link rel="self" href="https://flying-sky-stack.github.io/atom.xml"/>
+    <logo>https://flying-sky-stack.github.io/images/avatar.png</logo>
+    <icon>https://flying-sky-stack.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2026, winpost</rights>
+    <entry>
+        <title type="html"><![CDATA[DN002：HwLOS"字研系统"：一场关于"自主研发"的荒诞喜剧]]></title>
+        <id>https://flying-sky-stack.github.io/post/dn002hwloszi-yan-xi-tong-yi-chang-guan-yu-zi-zhu-yan-fa-de-huang-dan-xi-ju/</id>
+        <link href="https://flying-sky-stack.github.io/post/dn002hwloszi-yan-xi-tong-yi-chang-guan-yu-zi-zhu-yan-fa-de-huang-dan-xi-ju/">
+        </link>
+        <updated>2026-02-15T08:28:53.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="最近刷b站又被一个老朋友刷屏了hwlos这个号称自主研发的操作系统在2025年9月被扒皮后不仅没凉反而更新了10个版本还建了自己的官网-今天必须来扒一扒这场荒诞的字研闹剧">最近刷B站又被一个&quot;老朋友&quot;刷屏了——HwLOS，这个号称&quot;自主研发&quot;的操作系统，在2025年9月被扒皮后，不仅没凉，反而更新了10个版本，还建了自己的官网。今天必须来扒一扒这场荒诞的&quot;字研&quot;闹剧。</h2>
+<p>一、事件回顾：从&quot;自研系统&quot;到&quot;套壳现形&quot;<br>
+2025年9月7日，B站UP主 HardwareLab 发布视频，高调宣布：&quot;自研操作系统！不是Windows魔改！&quot;<br>
+结果不到24小时，技术博主拆包发现：</p>
+<ul>
+<li>系统内赫然存在<br>
+Microsoft 和 Windows 文件夹</li>
+<li>内核就是<br>
+Windows 11 的精简版</li>
+<li>所谓的&quot;文件资源管理器&quot;直接用的<br>
+7-Zip（没错，就是那个压缩软件）<br>
+<img src="https://flying-sky-stack.github.io/post-images/1771144181594.png" alt="" loading="lazy"><br>
+这操作就好比把别人的车换个车标，然后说&quot;这是我自主研发的汽车&quot;。</li>
+</ul>
+<hr>
+<h2 id="二-最大破绽安装程序呢最离谱的是这系统根本没有安装过程-正常操作系统插入u盘-分区-格式化-复制文件-安装驱动-重启配置-进入桌面耗时20-40分钟hwlos插入u盘-直接进桌面-还没开始安装呢就已经开机了-这不就是典型的pe系统预安装环境特征吗作者可能觉得把windows安装界面删掉用户就看不出来这是pe套壳了-但稍微有点电脑常识的人都知道真正的操作系统是需要安装的不是插u盘直接进的-这就好比有人卖你自主研发的新车结果你一坐进去发现是辆出租车计价器还在跳表连伪装都懒得做全套">二、最大破绽：安装程序呢？<br>
+最离谱的是，这系统根本没有安装过程。<br>
+正常操作系统：插入U盘 → 分区 → 格式化 → 复制文件 → 安装驱动 → 重启配置 → 进入桌面（耗时20-40分钟）<br>
+HwLOS：插入U盘 → 直接进桌面。<br>
+还没开始安装呢，就已经&quot;开机&quot;了。这不就是典型的PE系统（预安装环境）特征吗？<br>
+作者可能觉得把Windows安装界面删掉，用户就看不出来这是PE套壳了。但稍微有点电脑常识的人都知道：真正的操作系统是需要安装的，不是插U盘直接进的。<br>
+这就好比有人卖你&quot;自主研发的新车&quot;，结果你一坐进去发现是辆出租车，计价器还在跳表——连伪装都懒得做全套。</h2>
+<h2 id="三-技术创新清单让我们看看这位系统开发者的核心技术栈号称功能实际实现自研文件管理器7-zipexe-重命名8k超清壁纸实际不到1080p系统优化删除windows组件免安装启动pe环境直接运行磁盘管理工具集成diskgenius办公软件集成libreoffice最讽刺的是当我用鲁大师检测时显示结果赫然是windows-11-精简版-估计鲁大师也没想到自己有生之年还能适配所谓的自研操作系统">三、技术&quot;创新&quot;清单<br>
+让我们看看这位&quot;系统开发者&quot;的核心技术栈：<br>
+号称功能实际实现自研文件管理器7-Zip.exe 重命名8K超清壁纸实际不到1080P系统优化删除Windows组件免安装启动PE环境直接运行磁盘管理工具集成DiskGenius办公软件集成LibreOffice<br>
+最讽刺的是，当我用鲁大师检测时，显示结果赫然是：&quot;Windows 11 精简版&quot;。<br>
+<img src="https://flying-sky-stack.github.io/post-images/1771144191517.png" alt="" loading="lazy"><br>
+估计鲁大师也没想到，自己有生之年还能&quot;适配&quot;所谓的&quot;自研操作系统&quot;。</h2>
+<p>四、荒诞后续：越骂越更新<br>
+按理说，被扒成这样应该删号跑路了吧？<br>
+不，他更新了10个版本。<br>
+从1.0.1到6.5，更新日志写得有模有样：</p>
+<ul>
+<li>&quot;去除Press any key to boot提示&quot;</li>
+<li>&quot;修改X盘卷标&quot;</li>
+<li>&quot;应用8K壁纸&quot;</li>
+<li>&quot;更新DiskGenius为6.0专业版&quot;<br>
+<img src="https://flying-sky-stack.github.io/post-images/1771144229052.png" alt="" loading="lazy"><br>
+甚至还建了官网（hwlos.mysxl.cn），提供123云盘下载。<br>
+这心理素质，这产品迭代速度，某些大厂PM看了都自愧不如。</li>
+</ul>
+<hr>
+<p>五、为什么大家如此愤怒<br>
+说实话，如果只是做个Windows PE工具，或者明确说&quot;基于Windows的定制系统&quot;，没人会喷。<br>
+愤怒的核心在于欺骗：</p>
+<ul>
+<li>把PE环境包装成&quot;操作系统&quot;</li>
+<li>把免安装启动说成&quot;即开即用优化&quot;</li>
+<li>把删除组件说成&quot;深度优化&quot;</li>
+<li>把换壁纸称为&quot;8K视觉体验&quot;</li>
+<li>被实锤后仍坚称&quot;不是Windows魔改&quot;<br>
+这消耗的是真正国产操作系统开发者的公信力。</li>
+</ul>
+<hr>
+<p>六、总结<br>
+这场闹剧最讽刺的莫过于：如果作者当初诚实地说这是&quot;基于Windows PE的维护工具&quot;，或者真的用Linux内核套壳，都不至于被群嘲成这样。<br>
+&quot;字研操作系统&quot;（自主研发）这个谐音梗，或许就是技术社区给这类行为最精准的注脚。<br>
+最后送HwLOS作者一句话：<br>
+删组件不是研发，换壁纸不是创新，7-Zip不是文件管理器，PE环境不是操作系统，插U盘直接进桌面更不是&quot;免安装黑科技&quot;。</p>
+<p>本期就不提供下载链接了，各位有兴趣的可以去作者官网下载（HwLOS官方网站 | 上线了sxl.cn）</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DN001：修复Windows 10 LTSC 2021微软拼音输入法不显示候选框问题]]></title>
+        <id>https://flying-sky-stack.github.io/post/dn001xiu-fu-windows-10-ltsc-2021-wei-ruan-pin-yin-shu-ru-fa-bu-xian-shi-hou-xuan-kuang-wen-ti/</id>
+        <link href="https://flying-sky-stack.github.io/post/dn001xiu-fu-windows-10-ltsc-2021-wei-ruan-pin-yin-shu-ru-fa-bu-xian-shi-hou-xuan-kuang-wen-ti/">
+        </link>
+        <updated>2026-02-08T08:24:57.000Z</updated>
+        <content type="html"><![CDATA[<p>如果你已经安装或升级Windows 10 LTSC 2021版, 那应该发现系统自带的微软拼音输入法无法正常显示候选框。<br>
+不得不说微软这系统发布前都没有进行测试啊好歹也是长期服务版，这个问题是微软精简系统组件时引起的问题。<br>
+我们知道长期服务版部分组件和现代功能被精简掉，这其中就包括桌面桥的运行时，然后导致输入法候选框消失。<br>
+要解决此问题我们需要自己下载桌面桥的运行时进行部署，在部署成功后微软拼音输入法的候选框就会重新回归。<br>
+另外此问题还可能导致 wsappx.exe 进程出现较高的占用，安装运行时解决输入法问题后该问题也会被自动解决。</p>
+<p>以下是修复方法：<br>
+首先从：https://wwbnm.lanzoub.com/b014x2833g 提取码：67rr<br>
+<img src="https://flying-sky-stack.github.io/post-images/1771143948025.png" alt="" loading="lazy"><br>
+64位下载：Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe.zip<br>
+32位下载：Microsoft.VCLibs.140.00_14.0.30704.0_x86__8wekyb3d8bbwe.zip<br>
+下载后从压缩包里解压文件放到C盘根目录，如果放到其他位置请根据实际存放位置修改以下命令里的位置路径。<br>
+按以下步骤部署运行：<br>
+右键点击开始按钮选择管理员模式的PowerShell，注意此操作不支持使用命令提示符(CMD)只能用PowerShell<br>
+1.#如果是64位系统，粘贴以下命令并回车<br>
+2.Add-AppxPackage -Path &quot;C:\Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe.Appx&quot;<br>
+3.#如果是32位系统，粘贴以下命令并回车<br>
+4.Add-AppxPackage -Path &quot;C:\Microsoft.VCLibs.140.00_14.0.30704.0_x86__8wekyb3d8bbwe.Appx&quot;<br>
+若提示部署成功或没有提示其他错误那就已经搞定，此时请重新测试微软拼音输入法的候选框是否已经正常显示。<br>
+如果还是没有显示候选框那就重启下系统即可正常显示，相关进程占用率较高的问题在重启后应该也会自动解决。</p>
+]]></content>
+    </entry>
+</feed>
